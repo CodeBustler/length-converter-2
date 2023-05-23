@@ -7,8 +7,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Predefined Styles */
-
 /* Body Styling */
 body {
   width: 100%;
@@ -34,17 +32,6 @@ body {
   padding-top: 6px;
   position: relative;
   left: -110px;
-}
-
-/* Footer  */
-footer {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translate(-50%, 0);
-  margin-right: auto;
-  padding: 20px 0;
-  z-index: -10;
 }
 
 /* Container */
@@ -92,8 +79,8 @@ form {
 input[type='reset'] {
   width: 60%;
 }
-/* RESPONSIVE */
 
+/* RESPONSIVE */
 @media only screen and (max-width: 600px) {
   .container {
     width: 90%;
@@ -118,4 +105,15 @@ input[type='reset'] {
   input[type='reset'] {
     width: 100%;
   }
+}
+
+/* Footer  */
+footer {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  margin-right: auto;
+  padding: 20px 0;
+  z-index: -10;
 }
